@@ -61,7 +61,7 @@ https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/con
 #### Setting cloudflare to launch at boot (UNDER CONSTRUCTION!!!)
 1. in the terminal type `sudo cloudflared service install`
 2. download the `com.cloudflare.cloudflared.plist` template and replace [YOUR TUNNEL ID] to your cloudflare tunnel id without the brakets (if your forgot it in the terminal type `cloudflared tunnel list` and it should show up)
-
+https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/com.cloudflare.cloudflared.plist
 3. copy your modified `com.cloudflare.cloudflared.plist` to /Library/LaunchDaemons if prompted to overwrite click yes
 4. type in terminal `sudo launchctl start com.cloudflare.cloudflared` to start the service, cloudflare should auto start at boot now
 
