@@ -47,7 +47,7 @@ Cons:
 6. Configure your domains name servers to cloudflare (example for namecheap but works with other registrars like name.com godady, etc) ![image](https://user-images.githubusercontent.com/30292597/141693587-a98f9483-3652-4a03-9bb8-1a0cf3bbf3c5.png)
 7. Wait for cloudflare to validate your domain
 
-#### Setting up cloudflare tunnels with your domain (UNDER CONSTRUCTION!!!)
+#### Setting up cloudflare tunnels with your domain 
 1. in the terminal type `cloudflared tunnel create <NAME>` replace name to name of your tunnel ex bluebubbles
 2. Download the following config.yml template open it text edit (or other text editors) and replace the [username] with the username of your mac server and replace the [tunnel id] with your tunnel id (if your forgot it in the terminal type `cloudflared tunnel list` and it should show up
 https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/config.yml
@@ -55,6 +55,8 @@ https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/con
 4. in the terminal type `cloudflared run <NAME>` and a the tunnel should up and running
 5. in bluebubbles settings set the proxy service to dynamic dns and enter your ![image](https://user-images.githubusercontent.com/30292597/141694946-e7fdbcdf-20ca-4263-9fcf-3c7358aa2fa8.png) <img width="889" alt="image" src="https://user-images.githubusercontent.com/30292597/141694988-605f28ed-6a36-4936-86b7-6077b4cf7e8f.png">
 6. Try to connect the server using the android, desktop, or web apps to see if it works
+
+#### Setting cloudflare to launch at boot (UNDER CONSTRUCTION!!!)
 
 ------ Work in progress ..... ---------
 
