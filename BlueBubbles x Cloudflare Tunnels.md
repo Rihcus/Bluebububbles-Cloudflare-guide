@@ -19,7 +19,7 @@ Cons:
 3. Run the following command in a terminal `cloudflared tunnel --url localhost:1234 ` 
 4. In bluebubbles server settings set the proxy service to dynamic dns and input the url given by Cloudflare in the terminal (something like try Cloudflare) (example:  https://various-bleeding-earnings-lap.trycloudflare.com/) 
 
-## Method 2 Setup Cloudflare and Bluebubbles with a domain
+## Method 2 Setup Cloudflare and Bluebubbles with a domain (this part is work in progress.....)
 
 Pros:
 
