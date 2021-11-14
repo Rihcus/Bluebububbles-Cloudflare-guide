@@ -1,6 +1,6 @@
 # BlueBubbles x Cloudflare Tunnels
 
-A guide to set up cloudflare tunnels with bluebubbles from a guy that barley knows how to code :)
+A guide to set up cloudflare tunnels with bluebubbles 
 
 ## Method 1 Setup Cloudflare and Bluebubbles without a domain
 
