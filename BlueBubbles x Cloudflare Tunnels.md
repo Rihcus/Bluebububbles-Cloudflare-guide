@@ -47,8 +47,9 @@ Cons:
 6. Configure your domains name servers to cloudflare (example for namecheap but works with other registrars like name.com godady, etc) ![image](https://user-images.githubusercontent.com/30292597/141693587-a98f9483-3652-4a03-9bb8-1a0cf3bbf3c5.png)
 7. Wait for cloudflare to validate your domain
 
-#### Setting up cloudflare tunnels with your domain
+#### Setting up cloudflare tunnels with your domain (UNDER CONSTRUCTION!!!)
 1. Open a terminal on your mac server and type `cloudflared login` you should see a login prompt open on your browser click the domain you would like to use with bb and authorize it ![image](https://user-images.githubusercontent.com/30292597/141693813-3fcb4a27-48af-4559-9c90-5ba9fee65bfe.png) ![image](https://user-images.githubusercontent.com/30292597/141693845-87f16da4-0a75-47e4-a361-bad23c31b9a1.png)
+2. 
 
-
+------ Work in progress ..... ---------
 
