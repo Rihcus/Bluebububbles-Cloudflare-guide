@@ -66,9 +66,13 @@ https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/com
 
 ##### Helpfull resources:
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation
+
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/create-tunnel
+
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/configuration/configuration-file
+
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service
+
 https://support.apple.com/lv-lv/guide/terminal/apdc6c1077b-5d5d-4d35-9c19-60f2397b2369/mac
 
 
