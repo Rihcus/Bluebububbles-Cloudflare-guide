@@ -47,5 +47,5 @@ Cons:
 6. Configure your domains name servers to cloudflare (example for namecheap but works with other registrars like name.com godady, etc) ![image](https://user-images.githubusercontent.com/30292597/141693587-a98f9483-3652-4a03-9bb8-1a0cf3bbf3c5.png)
 7. Wait for cloudflare to validate your domain
 
-
+#### Setting up cloudflare tunnels with your domain
 
