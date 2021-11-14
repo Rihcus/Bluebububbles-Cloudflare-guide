@@ -48,8 +48,7 @@ Cons:
 7. Wait for cloudflare to validate your domain
 
 #### Setting up cloudflare tunnels with your domain (UNDER CONSTRUCTION!!!)
-1. Open a terminal on your mac server and type `cloudflared login` you should see a login prompt open on your browser click the domain you would like to use with bb and authorize it ![image](https://user-images.githubusercontent.com/30292597/141693813-3fcb4a27-48af-4559-9c90-5ba9fee65bfe.png) ![image](https://user-images.githubusercontent.com/30292597/141693845-87f16da4-0a75-47e4-a361-bad23c31b9a1.png)
-2. 
+1. 
 
 ------ Work in progress ..... ---------
 
