@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/con
 5. in bluebubbles settings set the proxy service to dynamic dns and enter your ![image](https://user-images.githubusercontent.com/30292597/141694946-e7fdbcdf-20ca-4263-9fcf-3c7358aa2fa8.png) <img width="889" alt="image" src="https://user-images.githubusercontent.com/30292597/141694988-605f28ed-6a36-4936-86b7-6077b4cf7e8f.png">
 6. Try to connect the server using the android, desktop, or web apps to see if it works
 
-#### Setting cloudflare to launch at boot (UNDER CONSTRUCTION!!!)
+#### Setting cloudflare to launch at boot
 1. in the terminal type `sudo cloudflared service install`
 2. download the `com.cloudflare.cloudflared.plist` template and replace [YOUR TUNNEL ID] to your cloudflare tunnel id without the brakets (if your forgot it in the terminal type `cloudflared tunnel list` and it should show up)
 https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/com.cloudflare.cloudflared.plist
