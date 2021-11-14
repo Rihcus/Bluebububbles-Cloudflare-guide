@@ -63,7 +63,7 @@ https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/con
 2. download the `com.cloudflare.cloudflared.plist` template and replace [YOUR TUNNEL ID] to your cloudflare tunnel id without the brakets (if your forgot it in the terminal type `cloudflared tunnel list` and it should show up)
 
 3. copy your modified `com.cloudflare.cloudflared.plist` to /Library/LaunchDaemons if prompted to overwrite click yes
-4. .
+4. type in terminal `sudo launchctl start com.cloudflare.cloudflared` to start the service, cloudflare should auto start at boot now
 
 
 ##### Helpfull resources:
@@ -73,5 +73,4 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/config
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service
 https://support.apple.com/lv-lv/guide/terminal/apdc6c1077b-5d5d-4d35-9c19-60f2397b2369/mac
 
------- Work in progress ..... ---------
 
