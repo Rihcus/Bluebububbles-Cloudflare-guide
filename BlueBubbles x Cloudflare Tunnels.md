@@ -51,7 +51,7 @@ Cons:
 
 #### Setting up cloudflare tunnels with your domain 
 1. in the terminal type `cloudflared tunnel create <NAME>` replace name to name of your tunnel ex bluebubbles
-2. Download the following config.yml template open it text edit (or other text editors) and replace the [username] with the username of your mac server and replace the [tunnel id] with your tunnel id (if your forgot it in the terminal type `cloudflared tunnel list` and it should show up
+2. Download the following config.yml template open it text edit (or other text editors) and replace the [username] with the username of your mac server and replace the [tunnel id] with your tunnel id (if your forgot it in the terminal type `cloudflared tunnel list` and it should show up)
 https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/config.yml
 3. move the config.yml file to /Users/[username]/.cloudflared 
 4. in the terminal type `cloudflared run <NAME>` and a the tunnel should up and running
@@ -59,6 +59,19 @@ https://raw.githubusercontent.com/Rihcus/Bluebububbles-Cloudflare-guide/main/con
 6. Try to connect the server using the android, desktop, or web apps to see if it works
 
 #### Setting cloudflare to launch at boot (UNDER CONSTRUCTION!!!)
+1. in the terminal type `sudo cloudflared service install`
+2. download the `com.cloudflare.cloudflared.plist` template and replace [YOUR TUNNEL ID] to your cloudflare tunnel id without the brakets (if your forgot it in the terminal type `cloudflared tunnel list` and it should show up)
+
+3. copy your modified `com.cloudflare.cloudflared.plist` to /Library/LaunchDaemons if prompted to overwrite click yes
+4. .
+
+
+##### Helpfull resources:
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/create-tunnel
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/configuration/configuration-file
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/run-tunnel/run-as-service
+https://support.apple.com/lv-lv/guide/terminal/apdc6c1077b-5d5d-4d35-9c19-60f2397b2369/mac
 
 ------ Work in progress ..... ---------
 
