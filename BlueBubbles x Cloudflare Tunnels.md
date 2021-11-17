@@ -7,7 +7,7 @@ A guide to set up cloudflare tunnels with bluebubbles
 
 Pros:
 
- Minimal setup required
+ Minimal setup required (Its now one click away in the new server update)
 
 Cons:
 
@@ -26,7 +26,6 @@ Cons:
 ## Method 2 Setup Cloudflare and Bluebubbles with a domain 
 
 - Static url and no need to update dynamic dns in bluebubbles server
-- Auto start at boot
 - You can configure a custom landing page to block unwanted connections to your server (in addition to the default one in bb)
 
 Cons:
