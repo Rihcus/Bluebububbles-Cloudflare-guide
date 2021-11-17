@@ -12,7 +12,7 @@ Pros:
 Cons:
 
 - Like ngrok the url will change per cloudflare tunnel session
-- Lack of auto start
+- ~~Lack of auto start~~ (Fixed with Upcoming Server update)
 - You will need to manually update they dynamic dns url for cloudflare tunnel each time it changes (for now)
 
 ### ~~Steps:~~
