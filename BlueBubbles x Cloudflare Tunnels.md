@@ -3,7 +3,7 @@
 A guide to set up cloudflare tunnels with bluebubbles 
 
 # Method 1 superceded by upcomming direct integration into blububbles server
-~~## Method 1 Setup Cloudflare and Bluebubbles without a domain
+~~## Method 1 Setup Cloudflare and Bluebubbles without a domain ~~
 
 Pros:
 
