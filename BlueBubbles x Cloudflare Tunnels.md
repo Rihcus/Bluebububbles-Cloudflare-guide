@@ -2,24 +2,25 @@
 
 A guide to set up cloudflare tunnels with bluebubbles 
 
+# Method 1 superceded by upcomming direct integration into blububbles server
 ~~## Method 1 Setup Cloudflare and Bluebubbles without a domain
 
 Pros:
 
-- Minimal setup required
+ Minimal setup required
 
-Cons:
+~~Cons:
 
 - Like ngrok the url will change per cloudflare tunnel session
 - Lack of auto start
 - You will need to manually update they dynamic dns url for cloudflare tunnel each time it changes (for now)
 
-### Steps:
+~~### Steps:
 
-1. Install home-brew: https://brew.sh/  
-2. Install cloud flared by pasting the following command in the terminal: `brew install cloudflare/cloudflare/cloudflared ` 
-3. Run the following command in a terminal `cloudflared tunnel --url localhost:1234 ` 
-4. In bluebubbles server settings set the proxy service to dynamic dns and input the url given by Cloudflare in the terminal (something like try Cloudflare) (example:  https://various-bleeding-earnings-lap.trycloudflare.com/)~~
+~~1. Install home-brew: https://brew.sh/  
+~~2. Install cloud flared by pasting the following command in the terminal: `brew install cloudflare/cloudflare/cloudflared ` 
+~~3. Run the following command in a terminal `cloudflared tunnel --url localhost:1234 ` 
+~~4. In bluebubbles server settings set the proxy service to dynamic dns and input the url given by Cloudflare in the terminal (something like try Cloudflare) ~~(example:  https://various-bleeding-earnings-lap.trycloudflare.com/)~~
 
 ## Method 2 Setup Cloudflare and Bluebubbles with a domain 
 
