@@ -3,3 +3,4 @@ credentials-file: /Users/[username]/.cloudflared/[tunnel-id].json
 ingress:
   - hostname: [insert your domain here ex bluebubbles.example.com]
     service: http://localhost:1234
+  - service: http_status:404
