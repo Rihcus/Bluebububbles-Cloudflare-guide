@@ -1,3 +1,5 @@
+In beta
+
 # Linking desec.io domain to cloudflare
 
 desec.io is a free DNS hosting service (similar to duckdns and noip) which provides free subdomains
@@ -15,7 +17,7 @@ Screen Shot 2022-08-10 at 7.25.34 PM![image](https://user-images.githubuserconte
 #### Linking a domain to cloudflare
 1. Sign up for a cloudflare account at https://dash.cloudflare.com/sign-up
 2. Add a site on the portal ![image](https://user-images.githubusercontent.com/30292597/141693392-96d2261d-a584-4253-83d2-e54e0b7a254c.png)
-3. Enter your domain name (ex: example.com do not use a subdomain ex: imessage.example.com) ![image](https://user-images.githubusercontent.com/30292597/141693431-a52e9e6c-b237-4426-8a57-058b332b4a6e.png)
+3. Enter your domain name from desec.i (ex: [your domain name here no brackets].dedyn.io) ![image](https://user-images.githubusercontent.com/30292597/184040462-3d0c3260-c58d-4255-a7fc-1bc72783ca06.png)
 4. Click the free plan and click continue ![image](https://user-images.githubusercontent.com/30292597/141693453-8bf7d912-a4b3-44fc-8e2b-0d86f4072323.png)
 5. If you are using the domain for any other websites copy the records bellow (if your just using the domain for bb you can skip this part) ![image](https://user-images.githubusercontent.com/30292597/141693551-3e8ac824-0470-451b-bf0f-df5ea47cf85f.png)
 6. Configure your domains name servers to cloudflare (example for namecheap but works with other registrars like name.com godady, etc) ![image](https://user-images.githubusercontent.com/30292597/141693587-a98f9483-3652-4a03-9bb8-1a0cf3bbf3c5.png)
