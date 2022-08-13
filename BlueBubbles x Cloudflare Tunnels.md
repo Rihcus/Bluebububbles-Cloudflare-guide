@@ -2,6 +2,12 @@
 
 A guide to set up cloudflare tunnels with bluebubbles 
 
+# Cloudflare Dasboard GUI setup
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/remote/#set-up-a-tunnel-remotely-dashboard-setup
+
+much easier compard to this guide.
+
+
 # Method 1 superceded by upcomming direct integration into blububbles server
 ## Method 1 Setup Cloudflare and Bluebubbles without a domain
 
@@ -33,6 +39,8 @@ Cons:
 - You need a domain to link to cloudflare (subdomain services like duckpins and noip won't work)
 - Setup is a tad bit more complicated
 
+### Use the new cloudflare gui tool for the best experience steps bellow is older method
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/remote/#set-up-a-tunnel-remotely-dashboard-setup
 
 
 ### Steps:
